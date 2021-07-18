@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+ scroll-behavior: auto;
+}
+
+.background-section-one{
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/black-friday.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-section-two{
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/fundo.jpeg);
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-container{
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 500px;
+  }
+
+input{  
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+}
+
+footer{
+  height: 10px;
+  padding: 15px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-family:Open Sans, Sans-serif;
+  font-size: 15px;
+}
+
+form{
+  display: grid;
+  text-align: center;
+}
+
+.label{
+  font-family:Open Sans, Sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-block-end: 20px;
+}
